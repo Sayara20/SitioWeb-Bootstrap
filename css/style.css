@@ -1,0 +1,57 @@
+
+html,
+body,
+header,
+.view {
+height:54.5%;/* es el alto que va ocupar el menu en pantalla grande */
+margin-top:.4px;
+}
+
+.hola{ /* es la opacidad que le puse al carrucel 1 2 imagen */
+     
+    background:rgb(31, 197, 81);
+    width: 35%;
+    height: 44%;
+    opacity: 0.5; 
+}
+
+ h1{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-family:arial;
+}
+h2{
+    color:#C12230;
+}
+
+
+
+@media (max-width: 740px) {
+html,
+body,
+header,
+.view {
+height:50%;/* es el ancho que va ocupar el menu en pantalla chica */
+}
+}
+
+.top-nav-collapse {
+background-color: #912d32 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+background: transparent !important;
+}
+
+@media (max-width: 991px) {
+.navbar:not(.top-nav-collapse) {
+background: #912d32 !important;
+}
+
+
+
+/* aqui empieza los efectso del slaide de aliados */
+
+
+
+}
